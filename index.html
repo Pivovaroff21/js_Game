@@ -22,55 +22,33 @@
                 New game
             </button>
             
-            <button class="button" id="btn-continue">
+            <button class="button" id="btn-load">
                 Load game
             </button>
         </div>
     <div class="playground d_none">
         <div class="pokemon character">
-            <span class="lvl">Lv. 1</span>
-
-            <img src="./assets/pikachu.png" class="sprite">
-
-            <div class="details">
-                <h2 class="name" id="name-character">
-                    Pikachu
-                </h2>
-                <div class="hp">
-                    <div class="bar">
-                        <div class="health" id="progressbar-character" style="width: 100%;"></div>
-                    </div>
-                    <span class="text" id="health-character">100 / 100</span>
-                </div>
-            </div>
+            
         </div>
 
         <div class="control">
-            <button class="button" id="btn-kick">
-                Thunder Jolt
+            <div class="countdown"></div>
+            <button class="button" id="btn-find">
+                Find enemy
+            </button>
+            <button class="button d_none" id="btn-kick">
+                Thunder bolt
             </button>
         </div>
 
         <div class="pokemon enemy">
-            <span class="lvl">Lv. 1</span>
-
-            <img src="./assets/charmander.png" class="sprite">
-
-            <div class="details">
-                <h2 class="name" id="name-enemy">
-                    Charmander
-                </h2>
-                <div class="hp">
-                    <div class="bar">
-                        <div class="health" id="progressbar-enemy" style="width: 100%;"></div>
-                    </div>
-                    <span class="text" id="health-enemy">100 / 100</span>
-                </div>
-            </div>
+           
         </div>
     </div>
 </div>
-<div class="catch_screen"></div>
+<div class="catch_screen d_none">
+    <h2>You have completed all levels!</h2>
+</div>
 
 <script src="main.js"></script>
 </body>
